@@ -1,0 +1,18 @@
+# Data files (keep large/raw data out of git)
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.parquet
+data_samples/*.csv
+data_samples/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
