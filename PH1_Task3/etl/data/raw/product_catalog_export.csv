@@ -1,0 +1,12 @@
+product_id,sku,title,description,brand,category,price,status
+,SKU-1001, Running Shoes Air Max ,Lightweight running shoe for daily training,Nova Athletics,footwear,89.99,active
+,SKU-1002,Classic Denim Jacket,Mid-wash denim jacket with button closure,Urban Thread,outerwear,"$64.50",active
+,SKU-1003,Wireless Earbuds Pro,Noise-cancelling wireless earbuds,SoundWave,ELECTRONICS,129.99,active
+,SKU-1004,Yoga Mat Premium,Non-slip eco-friendly yoga mat,Zenith,fitness,,active
+,SKU-1005,Leather Crossbody Bag,Genuine leather crossbody bag,Urban Thread,accessories,74.00,discontinued
+,SKU-1002,Classic Denim Jacket,Mid-wash denim jacket with button closure,Urban Thread,outerwear,"$64.50",active
+,SKU-1006,Ceramic Coffee Mug Set,Set of 4 ceramic mugs,HomeCraft,home,,unknown_status
+,SKU-1007,Kids Sneakers Bright,Colorful sneakers for kids,Nova Athletics,footwear,39.99,active
+,SKU-1008,,Stainless steel water bottle 750ml,HydroLife,accessories,22.50,active
+,SKU-1009,Bluetooth Speaker Mini,Portable bluetooth speaker,SoundWave,electronics,45.00,active
+,SKU-1010,Slim Fit Chinos,Cotton stretch chino trousers,Urban Thread,apparel,-19.99,active

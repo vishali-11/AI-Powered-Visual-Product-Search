@@ -1,0 +1,21 @@
+2026-08-22 20:13:19,663 [INFO] pipeline: === Ingestion pipeline run started ===
+2026-08-22 20:13:19,664 [INFO] extract: Extracting product catalog from C:\Users\sivam\OneDrive\Desktop\QCraque\AI-Powered-Visual-Product-Search\PH1_Task3\etl\data\raw\product_catalog_export.csv
+2026-08-22 20:13:19,666 [INFO] extract: Extracted 11 raw product rows
+2026-08-22 20:13:19,666 [INFO] extract: Extracting inventory feed from C:\Users\sivam\OneDrive\Desktop\QCraque\AI-Powered-Visual-Product-Search\PH1_Task3\etl\data\raw\inventory_feed.json
+2026-08-22 20:13:19,667 [INFO] extract: Extracted 11 raw inventory rows
+2026-08-22 20:13:19,667 [INFO] extract: Extracting image manifest from C:\Users\sivam\OneDrive\Desktop\QCraque\AI-Powered-Visual-Product-Search\PH1_Task3\etl\data\raw\image_manifest.csv
+2026-08-22 20:13:19,669 [INFO] extract: Extracted 11 raw image rows
+2026-08-22 20:13:19,676 [INFO] transform: Product transform report: {'input_rows': 11, 'dropped_missing_title': 1, 'dropped_duplicate_sku': 1, 'dropped_invalid_price': 3, 'coerced_invalid_status': 0, 'output_rows': 6}
+2026-08-22 20:13:19,678 [INFO] transform: Inventory transform report: {'input_rows': 11, 'clipped_negative_stock': 1, 'dropped_orphan_sku': 3, 'output_rows': 8}
+2026-08-22 20:13:19,683 [INFO] transform: Image transform report: {'input_rows': 11, 'dropped_missing_url': 1, 'dropped_orphan_sku': 2, 'demoted_duplicate_primary': 1, 'output_rows': 8}
+2026-08-22 20:13:19,896 [INFO] load: Ensured target schema exists
+2026-08-22 20:13:19,907 [INFO] load: Loaded 6 product rows
+2026-08-22 20:13:19,909 [INFO] load: Loaded 8 inventory rows
+2026-08-22 20:13:19,910 [INFO] load: Loaded 8 image rows
+2026-08-22 20:13:19,915 [INFO] load: Load committed successfully: {'products': 6, 'inventory': 8, 'images': 8}
+2026-08-22 20:13:19,915 [INFO] pipeline: === Ingestion pipeline run complete in 0.252s ===
+2026-08-22 20:13:19,915 [INFO] pipeline: elapsed_seconds: 0.252
+2026-08-22 20:13:19,915 [INFO] pipeline: products: {'input_rows': 11, 'dropped_missing_title': 1, 'dropped_duplicate_sku': 1, 'dropped_invalid_price': 3, 'coerced_invalid_status': 0, 'output_rows': 6}
+2026-08-22 20:13:19,915 [INFO] pipeline: inventory: {'input_rows': 11, 'clipped_negative_stock': 1, 'dropped_orphan_sku': 3, 'output_rows': 8}
+2026-08-22 20:13:19,916 [INFO] pipeline: images: {'input_rows': 11, 'dropped_missing_url': 1, 'dropped_orphan_sku': 2, 'demoted_duplicate_primary': 1, 'output_rows': 8}
+2026-08-22 20:13:19,916 [INFO] pipeline: loaded_row_counts: {'products': 6, 'inventory': 8, 'images': 8}

@@ -1,0 +1,13 @@
+[
+  {"sku": "SKU-1001", "warehouse": "WH-EAST", "stock_qty": 120, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1001", "warehouse": "WH-WEST", "stock_qty": 45, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1002", "warehouse": "WH-EAST", "stock_qty": 0, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1003", "warehouse": "WH-EAST", "stock_qty": 300, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1003", "warehouse": "WH-WEST", "stock_qty": -5, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1004", "warehouse": "WH-EAST", "stock_qty": 60, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1005", "warehouse": "WH-WEST", "stock_qty": 12, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1007", "warehouse": "WH-EAST", "stock_qty": 80, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1009", "warehouse": "WH-EAST", "stock_qty": 200, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-1010", "warehouse": "WH-WEST", "stock_qty": 35, "updated_at": "2026-08-15T06:00:00Z"},
+  {"sku": "SKU-9999", "warehouse": "WH-EAST", "stock_qty": 15, "updated_at": "2026-08-15T06:00:00Z"}
+]

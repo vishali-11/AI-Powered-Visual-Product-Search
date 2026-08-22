@@ -1,0 +1,12 @@
+sku,image_url,image_type,is_primary
+SKU-1001,https://cdn.visualseek.com/img/sku-1001-a.jpg,catalog,true
+SKU-1001,https://cdn.visualseek.com/img/sku-1001-b.jpg,catalog,true
+SKU-1001,https://cdn.visualseek.com/img/sku-1001-lifestyle.jpg,marketing,false
+SKU-1002,https://cdn.visualseek.com/img/sku-1002-a.jpg,catalog,true
+SKU-1003,https://cdn.visualseek.com/img/sku-1003-a.jpg,catalog,true
+SKU-1003,https://cdn.visualseek.com/img/sku-1003-b.jpg,catalog,false
+SKU-1005,https://cdn.visualseek.com/img/sku-1005-a.jpg,catalog,true
+SKU-1007,,catalog,true
+SKU-1009,https://cdn.visualseek.com/img/sku-1009-a.jpg,catalog,true
+SKU-1010,https://cdn.visualseek.com/img/sku-1010-a.jpg,catalog,true
+SKU-1099,https://cdn.visualseek.com/img/sku-1099-a.jpg,catalog,true

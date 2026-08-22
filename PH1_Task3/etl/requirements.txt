@@ -1,0 +1,6 @@
+pandas>=2.0
+SQLAlchemy>=2.0
+pytest>=7.0
+
+# For production against PostgreSQL (per project tech stack), also install:
+# psycopg2-binary>=2.9
